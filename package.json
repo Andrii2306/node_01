@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Andrii2306/node_01/issues"
   },
-  "homepage": "https://github.com/Andrii2306/node_01#readme"
+  "homepage": "https://github.com/Andrii2306/node_01#readme",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
 }
